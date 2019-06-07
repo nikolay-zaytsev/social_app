@@ -1,0 +1,158 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+/* custom style yeah */
+
+body {
+
+  background-image: url("leaves.png"); 
+  $gray-medium-light: #eaeaea;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #f7e011;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: rgb(18, 238, 110);
+  background-color: transparent;
+}
+
+.btn-primary:hover {
+  color: rgb(6, 49, 238);
+  background-color: #0ef719;
+  border-color: #f1c606;
+}
+
+a {
+  color:#248012;
+  text-decoration: blanchedalmond;
+}
+
+a:hover, a:focus {
+
+   color: #fcf116;
+   
+  }
+
+.jumbotron {
+
+  background-color:  #15ecb6;
+}
+
+body {
+
+    font-family: "Chilanka";
+	  font-weight: bold;
+    color: #f88f08;
+  
+  }
+
+.navbar-inverse {
+  
+    background-color: #a917b9;
+  }
+
+  /* universal */
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #860b9f;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #f06f11;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #3ff109;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #a917b9;
+  color: #248012;
+}
+
+footer a {
+  color: #f88f08;
+}
+
+footer a:hover {
+  color: rgb(32, 159, 243);
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
