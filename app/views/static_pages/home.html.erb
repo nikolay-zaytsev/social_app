@@ -25,8 +25,24 @@
       <a href="https://www.vk.com/the_one_and_only_number_one">Kolya and friends</a>
       social application.
     </h2>
-  
+
     <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.3">
+  </script>
+
+  <div class="fb-like"
+    data-href="https://obscure-spire-16663.herokuapp.com/"
+    data-width=""
+    data-layout="standard"
+    data-action="like"
+    data-size="small"
+    data-show-faces="true"
+    data-share="true">
+  </div>
+
   </div>
   
   <%= link_to image_tag("social_app.png", alt: "Social App Logo"),
